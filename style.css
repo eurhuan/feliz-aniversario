@@ -1,0 +1,86 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+
+  h1 {
+
+    color: orange;
+
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #f0f0f0;
+  }
+  
+  .card {
+    position: relative;
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .message {
+    text-align: center;
+  }
+  
+  .animation {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+  }
+  
+   .cat {
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+    position: absolute;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    background-image: url('https://imagensemoldes.com.br/wp-content/uploads/2020/07/Cartoon-Cat-PNG.png');
+    bottom: 0;
+    right: 0;
+  }
+  
+  button {
+
+background-color: orange;
+border: none;
+color: #ffffff;
+font-family: Heavitas
+
+  }
+
+  @media screen and (min-width:370px) {
+    
+    .card {
+  
+
+        height: 320px;
+   
+      }
+
+  }
+
+
+  @media screen and (min-width:1000px) {
+    
+    .card {
+
+        height: 250px;
+  
+      }
+
+  }
